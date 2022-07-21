@@ -20,6 +20,8 @@ body {
 	margin: 0 auto;
 }
 
+
+
 .btn {
 	padding: 15px 13px;
 	background: #DD0000;
@@ -28,16 +30,18 @@ body {
 	text-decoration: none;
 	color: white;
 	width: 160px;
+	text-align: center;
+	transition: all 0.5s;
 }
-
-
 
 .btn span {
-	/*margin-left: 5px;*/
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
-.btn span:hover{
-	margin-right: 10px;
-	transition: margin-right .1s ease 1s;
+
+.btn:hover .icon_left {
+	padding-left: 25px;
 }
 /*global css end */
 
