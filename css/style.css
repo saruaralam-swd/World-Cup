@@ -123,8 +123,8 @@ body {
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
-	background: #4289ff;
-	color: white;
+	color: black;
+	background-color: white;
 	display: inline-block;
 	margin: 9px 0px;
 	padding: 11px 10px;
@@ -133,23 +133,20 @@ body {
 }
 
 .aside_btn:hover{
-	background-color: #6e1fea;
+	color: white;
+	background: #4289ff;
 }
 
 
 #active {
 	width: 100%;
 	color: white;
-	background-color: #DD0000;
+	background: #4289ff;
 }
 
-
-
-#active>.aside_btn {
-	color: white;
+#active:hover{
+	background-color: #6e1fea;
 }
-/*aside end */
-
 
 /*blog-main-side*/
 .blog_main_side {
@@ -194,6 +191,10 @@ body {
 	display: inline-block;
 }
 
+.card_btn:hover{
+	border: 2px solid #6e1fea;
+}
+
 .card_icon_group,
 .icon_group_one,
 .icon_group_two {
@@ -211,6 +212,10 @@ body {
 	padding: 12px;
 	gap: 20px;
 	min-height: 250px;
+}
+
+.team:hover, .player_card:hover{
+	border: 1.07372px solid #4289ff;
 }
 
 .team_flag {
@@ -303,27 +308,27 @@ nav ul li {
 nav ul li a {
 	color: #f1f1f1;
 	text-decoration: none;
+	transition: all 0.2s;
 }
+
 
 nav ul li a:hover{
 	color: #5951F4;
-	transition: all .1s ease-in .1s;
+
 }
 
 /*<<<footer end>>>*/
+
 .social_icon a{
 	color: white;
 	font-size: 25px;
 	margin: 5px;
 }
 
-.fa-brands:hover{
-	font-size: 30px;
-	transition: font-size .10s ease .01s;
-}
-/*social icon */
 
+/*social icon */
 /*social icon end*/
+
 
 
 /*Mobile, tablet, desktop, large device responsive*/
@@ -364,10 +369,13 @@ nav ul li a:hover{
 	.item_one,
 	.item_two,
 	.item_three {
-		border: 2px solid gainsboro;
 		border-radius: 10px;
 		padding: 10px 37px;
-		margin: 8px 0px;
+		margin: 5px 0px;
+	}
+
+	.aside_btn {
+		border: 2px solid gray;
 	}
 
 	/*blog_main_side*/
@@ -403,6 +411,10 @@ nav ul li a:hover{
 		padding: 48px 0px;
 	}
 
+	.footer-body > h4{
+		font-size: 5emvw;
+	}
+
 	nav ul {
 		flex-direction: column;
 	}
@@ -429,12 +441,22 @@ nav ul li a:hover{
 
 	.item_one,
 	.item_two,
-	.item_three {
+	.item_three{
 		width: 30%;
-		border: 2px solid gainsboro;
+	}
+
+	.aside_btn {
+		border: 2px solid gray;
 	}
 
 	.tab_screen {
 		visibility: visible;
 	}
+
+				
+				.footer-body>h4 {
+					font-size: 3vw;
+				}
+
+	
 }
