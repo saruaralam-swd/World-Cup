@@ -275,7 +275,7 @@ footer {
 }
 
 nav {
-	margin-top: 15px;
+	margin: 15px 0px;
 }
 
 nav ul {
@@ -296,6 +296,19 @@ nav ul li a {
 	text-decoration: none;
 }
 /*<<<footer end>>>*/
+.social_icon a{
+	color: white;
+	font-size: 25px;
+	margin: 5px;
+}
+
+.fa-brands:hover{
+	font-size: 30px;
+	transition: font-size .01s ease .01s;
+}
+/*social icon */
+
+/*social icon end*/
 
 
 /*Mobile, tablet, desktop, large device responsive*/
