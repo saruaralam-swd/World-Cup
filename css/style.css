@@ -1,0 +1,412 @@
+/*universal css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*font-family: 'Inter', sans-serif;*/
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+/*global css */
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.btn {
+	padding: 16px 20px;
+	background: #DD0000;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+.btn span {
+	margin-left: 5px;
+}
+/*global css end */
+
+/*tab version topbar visiable statt*/
+.topbar-sm-screen {
+	display: flex;
+	justify-content: space-between;
+	visibility: hidden;
+}
+
+.topbar__icon {
+	display: flex;
+	align-items: center;
+	column-gap: 6px;
+}
+/*tab version top bar visiable end*/
+
+/*banner_section start */
+.banner_section {
+	color: white;
+	background-color: black;
+	display: flex;
+	margin-bottom: 50px;
+	/*min-height: 530px;*/
+	border-radius: 36px;
+}
+
+.banner_section .split:first-child {
+	display: flex;
+	padding-left: 42px;
+	align-items: center;
+}
+
+.banner_section .split:last-child {
+	display: flex;
+	justify-content: center;
+}
+
+.split {
+	width: 50%;
+	padding-top: 50px;
+}
+
+.split img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.split>div>h1 {
+	font-size: 5vw;
+}
+
+.split>div>p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 26px;
+	margin: 24px 0px;
+}
+/*banner section end */
+
+
+/*<<<blog_section_start>>>*/
+.blog_section {
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: 20% auto;
+	gap: 15px;
+}
+
+.box {
+	width: 100%;
+	padding: 10px;
+	background: #161616;
+	border-radius: 10px;
+}
+
+.item_one,
+.item_two,
+.item_three {
+	border-radius: 5px;
+	margin: 15px 0px;
+	padding: 14px 0px;
+	text-align: center;
+}
+
+.item_one,
+.item_two {
+	background-color: white;
+	margin: 15px 0px;
+	padding: 14px 0px;
+	text-align: center;
+}
+
+
+.aside_btn {
+	text-decoration: none;
+	color: #161616;
+}
+
+#active {
+	background-color: #DD0000;
+}
+
+#active>.aside_btn {
+	color: white;
+}
+/*aside end */
+
+
+/*blog-main-side*/
+.blog_main_side {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 17px;
+}
+
+.player_card,
+.team {
+	box-sizing: border-box;
+	border: 1.07372px solid #E8E8E8;
+	border-radius: 10.7372px;
+}
+
+.player_card {
+	min-height: 336px;
+}
+
+.team {
+	max-height: 246px;
+}
+
+.player_card .card-img img {
+	width: 100%;
+}
+
+.card-body {
+	padding: 15px 0px 0px 13px;
+}
+
+.card-body>h4 {
+	margin: 12px 0px;
+}
+
+.card_btn {
+	font-size: 17.18px;
+	text-decoration: none;
+	border: 2px solid gray;
+	border-radius: 5.37px;
+	padding: 4px 20px;
+	display: inline-block;
+}
+
+.card_icon_group,
+.icon_group_one,
+.icon_group_two {
+	display: flex;
+	gap: 15px;
+}
+/*player card end */
+
+/*Football team */
+.team {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	padding: 12px;
+	gap: 20px;
+	min-height: 250px;
+}
+
+.team_flag {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.team_flag img {
+	width: 43%;
+}
+
+.team_flag span {
+	padding: 2px 5px;
+}
+
+.sedule {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.sedule h4 {
+	font-size: 20px;
+}
+
+.sedule p {
+	color: #4D4D4D;
+}
+/*football tema */
+/*<<<blog_section_end>>>*/
+
+
+/*tab_screen tobar visiable */
+.tab_screen {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px;
+	visibility: hidden;
+}
+/*tab_screen visiable end*/
+
+
+
+/*<<<footer start>>>*/
+footer {
+	min-height: 250px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	text-align: center;
+	margin: 0 auto
+}
+
+.footer-body {
+	width: 80%;
+	min-height: 200px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-body > h4 {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 15px;
+	font-size: 3vw;
+}
+
+nav {
+	margin-top: 15px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+/*<<<footer end>>>*/
+
+
+/*Mobile, tablet, desktop, large device responsive*/
+/*small device */
+/*576 / 16 = 36em*/
+@media screen and (max-width: 36em) {
+	/*mobile-top-bar */
+		.topbar-sm-screen {
+			visibility: visible;
+		}
+
+	/*banner_section*/
+	.banner_section {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.split {
+		width: 100%;
+		height: 100%;
+		padding: 24px 17px 0px 17px;
+	}
+
+	.blog_section {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/*blog aside */
+	.box {
+		background: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.item_one,
+	.item_two,
+	.item_three {
+		border: 2px solid gainsboro;
+		border-radius: 10px;
+		padding: 10px 37px;
+		margin: 8px 0px;
+	}
+
+	/*blog_main_side*/
+	.blog_main_side {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 0 20px;
+	}
+
+	/*player_card*/
+	/*football-team*/
+	.player_card,
+	.team {
+		width: 100%;
+		box-sizing: border-box;
+		border: 1.07372px solid #E8E8E8;
+		border-radius: 10.7372px;
+	}
+
+	.player_card {
+		min-height: 388.69px;
+	}
+
+	.team {
+		min-height: 250.69px;
+	}
+
+	.player_card .card-img img {
+		width: 100%;
+	}
+
+	/*<<<----------Footer---------->>>*/
+	footer {
+		padding: 48px 0px;
+	}
+
+	nav ul {
+		flex-direction: column;
+	}
+}
+
+/*table device screen */
+/*992  / 16 = 62em*/
+@media screen and (min-width: 36em) and (max-width: 62em) {
+	.blog_section {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 15px;
+	}
+
+	.blog_main_side {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.box {
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.item_one,
+	.item_two,
+	.item_three {
+		width: 30%;
+		border: 2px solid gainsboro;
+	}
+
+	.tab_screen {
+		visibility: visible;
+	}
+}
