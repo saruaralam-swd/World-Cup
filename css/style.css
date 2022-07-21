@@ -41,6 +41,7 @@ body {
 .btn:hover .icon_left {
 	padding-left: 25px;
 }
+
 /*global css end */
 
 /*tab version topbar visiable statt*/
@@ -55,6 +56,7 @@ body {
 	align-items: center;
 	column-gap: 6px;
 }
+
 /*tab version top bar visiable end*/
 
 /*banner_section start */
@@ -99,6 +101,7 @@ body {
 	line-height: 26px;
 	margin: 24px 0px;
 }
+
 /*banner section end */
 
 
@@ -130,7 +133,7 @@ body {
 	transition: 0.3s;
 }
 
-.aside_btn:hover{
+.aside_btn:hover {
 	color: white;
 	background: #4289ff;
 }
@@ -142,7 +145,7 @@ body {
 	background: #4289ff;
 }
 
-#active:hover{
+#active:hover {
 	background-color: #6e1fea;
 }
 
@@ -189,7 +192,7 @@ body {
 	display: inline-block;
 }
 
-.card_btn:hover{
+.card_btn:hover {
 	border: 2px solid #6e1fea;
 }
 
@@ -199,6 +202,7 @@ body {
 	display: flex;
 	gap: 15px;
 }
+
 /*player card end */
 
 /*Football team */
@@ -212,7 +216,8 @@ body {
 	min-height: 250px;
 }
 
-.team:hover, .player_card:hover{
+.team:hover,
+.player_card:hover {
 	border: 1.07372px solid #4289ff;
 }
 
@@ -244,6 +249,7 @@ body {
 .sedule p {
 	color: #4D4D4D;
 }
+
 /*football tema */
 /*<<<blog_section_end>>>*/
 
@@ -255,6 +261,7 @@ body {
 	margin: 20px 0px;
 	visibility: hidden;
 }
+
 /*tab_screen visiable end*/
 
 
@@ -280,7 +287,7 @@ footer {
 	flex-direction: column;
 }
 
-.footer-body > h4 {
+.footer-body>h4 {
 	border-bottom: 1px solid lightgray;
 	padding-bottom: 15px;
 	font-size: 3vw;
@@ -310,14 +317,14 @@ nav ul li a {
 }
 
 
-nav ul li a:hover{
+nav ul li a:hover {
 	color: #5951F4;
 
 }
 
 /*<<<footer end>>>*/
 
-.social_icon a{
+.social_icon a {
 	color: white;
 	font-size: 25px;
 	margin: 5px;
@@ -333,10 +340,11 @@ nav ul li a:hover{
 /*small device */
 /*576 / 16 = 36em*/
 @media screen and (max-width: 36em) {
+
 	/*mobile-top-bar */
-		.topbar-sm-screen {
-			visibility: visible;
-		}
+	.topbar-sm-screen {
+		visibility: visible;
+	}
 
 	/*banner_section*/
 	.banner_section {
@@ -409,8 +417,8 @@ nav ul li a:hover{
 		padding: 48px 0px;
 	}
 
-	.footer-body > h4{
-		font-size: 5emvw;
+	.footer-body>h4 {
+		font-size: 6vw;
 	}
 
 	nav ul {
@@ -439,7 +447,7 @@ nav ul li a:hover{
 
 	.item_one,
 	.item_two,
-	.item_three{
+	.item_three {
 		width: 30%;
 	}
 
@@ -451,10 +459,7 @@ nav ul li a:hover{
 		visibility: visible;
 	}
 
-				
-				.footer-body>h4 {
-					font-size: 3vw;
-				}
-
-	
+	.footer-body>h4 {
+		font-size: 5vw;
+	}
 }
