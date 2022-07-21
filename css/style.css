@@ -20,18 +20,24 @@ body {
 	margin: 0 auto;
 }
 
-
 .btn {
-	padding: 16px 20px;
+	padding: 15px 13px;
 	background: #DD0000;
 	border-radius: 5px;
 	display: inline-block;
 	text-decoration: none;
 	color: white;
+	width: 160px;
 }
 
+
+
 .btn span {
-	margin-left: 5px;
+	/*margin-left: 5px;*/
+}
+.btn span:hover{
+	margin-right: 10px;
+	transition: margin-right .1s ease 1s;
 }
 /*global css end */
 
@@ -109,32 +115,31 @@ body {
 	border-radius: 10px;
 }
 
-.item_one,
-.item_two,
-.item_three {
-	border-radius: 5px;
-	margin: 15px 0px;
-	padding: 14px 0px;
-	text-align: center;
-}
-
-.item_one,
-.item_two {
-	background-color: white;
-	margin: 15px 0px;
-	padding: 14px 0px;
-	text-align: center;
-}
-
-
 .aside_btn {
+	width: 100%;
+	text-align: center;
 	text-decoration: none;
-	color: #161616;
+	background: #4289ff;
+	color: white;
+	display: inline-block;
+	margin: 9px 0px;
+	padding: 11px 10px;
+	border-radius: 6px;
+	transition: 0.3s;
 }
+
+.aside_btn:hover{
+	background-color: #6e1fea;
+}
+
 
 #active {
+	width: 100%;
+	color: white;
 	background-color: #DD0000;
 }
+
+
 
 #active>.aside_btn {
 	color: white;
@@ -292,9 +297,15 @@ nav ul li {
 }
 
 nav ul li a {
-	color: white;
+	color: #f1f1f1;
 	text-decoration: none;
 }
+
+nav ul li a:hover{
+	color: #5951F4;
+	transition: all .1s ease-in .1s;
+}
+
 /*<<<footer end>>>*/
 .social_icon a{
 	color: white;
@@ -304,7 +315,7 @@ nav ul li a {
 
 .fa-brands:hover{
 	font-size: 30px;
-	transition: font-size .01s ease .01s;
+	transition: font-size .10s ease .01s;
 }
 /*social icon */
 
